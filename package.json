@@ -1,0 +1,15 @@
+{
+  "name": "pixel-mask.css",
+  "version": "0.0.1",
+  "description": "Add pixel mask layer on anything",
+  "main": "index.min.css",
+  "repository": "https://github.com/zhouhua-js/pixel-mask.css.git",
+  "author": "zhouhua <zhou--hua@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "stylus -c < ./src/pixel-mask.styl > index.min.css"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
