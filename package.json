@@ -7,7 +7,8 @@
   "author": "zhouhua <zhou--hua@163.com>",
   "license": "MIT",
   "scripts": {
-    "build": "stylus -c < ./src/pixel-mask.styl > index.min.css"
+    "build": "stylus < ./src/pixel-mask.styl > index.css",
+    "prepublic": "stylus -c < ./src/pixel-mask.styl > index.min.css"
   },
   "devDependencies": {
     "stylus": "^0.54.5"
