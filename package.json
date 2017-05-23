@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "stylus < ./src/pixel-mask.styl > index.css",
-    "prepublic": "stylus -c < ./src/pixel-mask.styl > index.min.css"
+    "prepublish": "stylus -c < ./src/pixel-mask.styl > index.min.css"
   },
   "devDependencies": {
     "stylus": "^0.54.5"
